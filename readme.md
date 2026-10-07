@@ -267,4 +267,4 @@ print(f"Meilleur coup: {best_pit}, Évaluation: {best_value}")
 
 ---
 
-**🎮 Bon jeu ! 🎮**
+
