@@ -1,10 +1,4 @@
-# 🎮 Projet Mancala - Jeu avec Recherche Adversariale
 
-**Auteur:** Dr. Meriem SEBAI, USTHB  
-**Cours:** Problem Solving - Master 1, Visual Computing  
-**Année:** 2025/2026
-
----
 
 ## 📋 Description du Projet
 
@@ -224,16 +218,6 @@ else:
 
 ---
 
-## 🎨 Interface Graphique
-
-### Caractéristiques
-- ✨ Design moderne inspiré du thème bois/africain
-- 🎭 Animations fluides des graines
-- 🎨 Graines multicolores avec effet 3D
-- 📊 Affichage en temps réel des scores
-- 🔄 Indicateur visuel du joueur actif
-- 📜 Historique des coups
-- 🏆 Modal de fin de partie
 
 ### Technologies
 - **React** pour l'interactivité
@@ -276,71 +260,10 @@ best_value, best_pit = MinimaxAlphaBetaPruning(
 print(f"Meilleur coup: {best_pit}, Évaluation: {best_value}")
 ```
 
----
 
-## 📝 Conformité au Projet
 
-✅ **Classe MancalaBoard** avec tous les attributs demandés  
-✅ **Classe Game** avec état, playerSide et fonctions requises  
-✅ **Classe Play** avec humanTurn et computerTurn  
-✅ **Algorithme Minimax Alpha-Beta** conforme au pseudo-code  
-✅ **Fonction evaluate()** selon l'équation (1)  
-✅ **Mode Computer vs Computer** avec heuristiques différentes  
-✅ **Interface graphique** interactive et esthétique  
-✅ **Code modulaire** et bien structuré  
 
----
 
-## 🎓 Concepts Appliqués
-
-- **Programmation Orientée Objet** (POO)
-- **Algorithmes de Recherche Adversariale**
-- **Élagage Alpha-Beta**
-- **Heuristiques de Jeu**
-- **Structures de Données** (dictionnaires, tuples)
-- **Récursion**
-- **Copie Profonde**
-- **Interface Utilisateur**
-
----
-
-## 🔍 Améliorations Possibles
-
-1. **Optimisations**
-   - Mémoïsation (transposition table)
-   - Tri des coups (move ordering)
-   - Recherche itérative approfondie
-
-2. **Fonctionnalités**
-   - Sauvegarde/Chargement de parties
-   - Statistiques de performance
-   - Replay des parties
-   - Mode multijoueur en ligne
-
-3. **IA Avancée**
-   - Apprentissage automatique
-   - Réseaux de neurones
-   - Monte Carlo Tree Search
-
----
-
-## 📚 Références
-
-- **Cours** : Problem Solving - Dr. Meriem SEBAI
-- **Algorithme** : Minimax avec élagage Alpha-Beta
-- **Jeu** : Mancala / Awelé / Oware
-
----
-
-## 👨‍💻 Auteur
-
-Projet réalisé dans le cadre du **Master 1 Visual Computing** à l'**USTHB**.
-
----
-
-## 📄 Licence
-
-Ce projet est réalisé à des fins éducatives dans le cadre du cours Problem Solving.
 
 ---
 
